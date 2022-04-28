@@ -218,6 +218,8 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* Changed the heading attribute from h2 to a div so that the heading attributes are in sequential order and added the font weight to replicate the CSS of an h2 element */
+.footer div {
     font-size: 20px;
+    font-weight: bold;
 }
