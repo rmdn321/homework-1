@@ -1,13 +1,16 @@
+/* Universal CSS selector targeting the whole webpage */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* CSS sector targeting a specific element-the body of the webpage  */
 body {
     background-color: #d9dcd6;
 }
 
+/* CSS for the header section of the webpage */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +44,18 @@ body {
     margin-left: 25px;
 }
 
+/* CSS for the a tags */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* CSS for the p tags */
 p {
     font-size: 16px;
 }
 
+/* CSS for the hero class that contains the main picture on the webpage */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,11 +65,13 @@ p {
     background-position: center;
 }
 
+/* CSS for floating the class float-left to the left  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* CSS for floating the class float-right to the right  */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -75,6 +83,7 @@ p {
     margin-left: 20px;
 }
 
+/* CSS for the benefits class and subclasses */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -140,6 +149,7 @@ p {
     max-width: 150px;
 } */
 
+/* CSS for the main section and its subclasses */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -200,6 +210,7 @@ p {
     font-size: 36px;
 } */
 
+/* CSS for the footer section */
 .footer {
     padding: 30px;
     clear: both;
